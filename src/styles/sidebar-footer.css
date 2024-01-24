@@ -1,5 +1,6 @@
 body {
-  background-color: #000;
+  background-color: var(--black);
+  font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -12,13 +13,13 @@ body {
 }
 
 .sidebar__navigation {
-  background-color: #121212;
+  background-color: var(--dark-gray);
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-  background: #121212;
+  background: var(--dark-gray);
   display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
@@ -38,23 +39,22 @@ body {
 }
 
 .sidebar nav ul li a {
-  color: #b3b3b3;
+  color: var(--gray);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: var(--font-peso-medio);
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .library {
-  background-color: #121212;
+  background-color: var(--dark-gray);
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   min-block-size: 40px;
   padding: 4px 8px;
-  color: #b3b3b3;
-  font-weight: 600;
+  color: var(--gray);
+  font-weight: var(--font-peso-medio);
   font-size: 14px;
   margin-top: 10px;
 }
@@ -67,12 +67,11 @@ body {
 .library .library__button {
   display: flex;
   margin-right: 10px;
-  color: #b3b3b3;
+  color: var(--gray);
   background-color: transparent;
   border: 0px;
   font-size: 14px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
+  font-weight: var(--font-peso-grande);
   text-align: center;
   text-decoration: none;
   text-transform: none;
@@ -95,9 +94,9 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  background-color: #242424;
-  color: #b3b3b3;
-  font-weight: 600;
+  background-color: var(--very-dark-gray);
+  color: var(--gray);
+  font-weight: var(--font-peso-medio);
   font-size: 14px;
   margin: 8px 0;
   padding: 16px 20px;
@@ -111,28 +110,26 @@ body {
 
 .section-playlist__content .text {
   padding-bottom: 14px;
-  color: #fff;
-  font-family: "DM Sans", sans-serif;
+  color: var(--white);
 }
 
 .section-playlist__content .title {
-  font-weight: 700;
+  font-weight: var(--font-peso-grande);
 }
 
 .section-playlist__content .subtitle {
-  font-weight: 500;
+  font-weight: var(--font-peso-pequeno);
   font-size: 12px;
 }
 
 .section-playlist__content .section-playlist__button {
   display: flex;
   justify-content: center;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
   border-radius: 20px;
   font-size: 12px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
+  font-weight: var(--font-peso-grande);
   text-decoration: none;
   text-transform: none;
   padding: 10px;
@@ -146,8 +143,8 @@ body {
 }
 
 .sidebar .cookies a {
-  color: #b3b3b3;
-  font-weight: 500;
+  color: var(--gray);
+  font-weight: var(--font-peso-pequeno);
   font-size: 10px;
   text-decoration: none;
 }
@@ -160,7 +157,7 @@ body {
   align-items: center;
   background-color: transparent;
   border: 1px solid #878787;
-  color: #fff;
+  color: var(--white);
   font-weight: bold;
   cursor: pointer;
   width: 170px;
@@ -176,28 +173,27 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background: linear-gradient(to right, #ae2896, #509bf5);
+  background: linear-gradient(135deg, #985098, #10b5dc);
   padding: 20px 40px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .footer-premium .footer-premium__title {
-  color: #ffffff;
+  color: var(--white);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: var(--font-peso-medio);
   font-size: 12px;
   margin-bottom: 10px;
 }
 
 .footer-premium .footer-premium__subtitle {
-  color: #ffffff;
+  color: var(--white);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-peso-pequeno);
 }
 
 .footer-premium button {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--white);
+  color: var(--black);
   font-size: 16px;
   font-weight: bold;
   padding: 14px 30px;
